@@ -1,0 +1,6 @@
+- lerna init --independent
+- lerna create @foursquare/ui
+- lerna create @foursquare/utils
+- lerna bootstrap --hoist
+- lerna add @foursquare/utils --scope=@foursquare/ui
+- set up commitlint
